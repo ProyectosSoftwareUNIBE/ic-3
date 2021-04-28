@@ -23,19 +23,16 @@ public class Fraccion {
         this.denominator = denominator;
     }
 
-    public int suma(){
+    public int suma() {
         int suma;
         suma = numerator + denominator;
         return suma;
     }
-    public int resta(){
+
+    public int resta() {
         int suma;
         suma = numerator + denominator;
         return resta();
     }
-
-
-
-
 
 }
