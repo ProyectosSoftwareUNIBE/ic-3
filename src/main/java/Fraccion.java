@@ -28,6 +28,12 @@ public class Fraccion {
         suma = numerator + denominator;
         return suma;
     }
+    public int resta(){
+        int suma;
+        suma = numerator + denominator;
+        return resta();
+    }
+
 
 
 
