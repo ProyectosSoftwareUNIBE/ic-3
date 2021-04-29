@@ -28,4 +28,9 @@ public class FraccionTest {
     public void inversa() {
         assertEquals("6/5",this.fraccion.inversa());
     }
+
+    @Test
+    public void multiplicacion() {
+        assertEquals(30,this.fraccion.multiplicacion());
+    }
 }

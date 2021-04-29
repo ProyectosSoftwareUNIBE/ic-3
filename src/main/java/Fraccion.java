@@ -28,17 +28,20 @@ public class Fraccion {
         suma = numerator + denominator;
         return suma;
     }
-
     public int resta() {
         int resta;
         resta = numerator - denominator;
         return resta;
     }
-
     public String inversa() {
         String numerador = String.valueOf(denominator);
         String denominador = String.valueOf(numerator);
         String inversa = numerador + "/" + denominador;
         return inversa;
+    }
+    public int multiplicacion() {
+        int multiplicacion;
+        multiplicacion = numerator * denominator;
+        return multiplicacion;
     }
 }
