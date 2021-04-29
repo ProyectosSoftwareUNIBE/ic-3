@@ -30,9 +30,9 @@ public class Fraccion {
     }
 
     public int resta() {
-        int suma;
-        suma = numerator + denominator;
-        return resta();
+        int resta;
+        resta = numerator - denominator;
+        return resta;
     }
 
 }
