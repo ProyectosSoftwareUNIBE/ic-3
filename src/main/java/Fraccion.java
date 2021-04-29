@@ -34,9 +34,11 @@ public class Fraccion {
         resta = numerator - denominator;
         return resta;
     }
-    public void inversa()
-    {
-        numerator=denominator;
-        denominator=numerator;
 
+    public String inversa() {
+        String numerador = String.valueOf(denominator);
+        String denominador = String.valueOf(numerator);
+        String inversa = numerador + "/" + denominador;
+        return inversa;
+    }
 }
