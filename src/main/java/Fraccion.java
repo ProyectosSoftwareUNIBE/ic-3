@@ -34,5 +34,9 @@ public class Fraccion {
         resta = numerator - denominator;
         return resta;
     }
+    public void inversa()
+    {
+        numerator=denominator;
+        denominator=numerator;
 
 }
