@@ -17,6 +17,10 @@ public class FraccionTest {
     public void suma() {
         assertEquals(11, this.fraccion.suma());
     }
+    @Test
+    public void resta() {
+        assertEquals(-1, this.fraccion.suma());
+    }
 
 
 
